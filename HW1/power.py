@@ -23,4 +23,5 @@ def power2n_x(n):
     pow[n]=power2n_x(n-1)+power2n_x(n-1)
     return pow[n]
 
+    
 print(power2n_x(25))
