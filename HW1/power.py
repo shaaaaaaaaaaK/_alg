@@ -21,4 +21,4 @@ def power2n_x(n):
     if not pow[n] is None : return pow[n]  
     pow[n]=power2n_x(n-1)+power2n_x(n-1)
     return pow[n]
-print(power2n_x(25))
+print(power2n_x(40))
