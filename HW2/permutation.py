@@ -16,7 +16,6 @@ while(1):
 	print('要找出字串全部的排列組合，請輸入：1')    
 	print('要找出數字全部的排列組合，請輸入：2')    
 	print('要退出，請輸入其他')    
-
 	x=int(input())
 	if x == 1:
 		temp=str(input("輸入："))
