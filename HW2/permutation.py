@@ -24,7 +24,7 @@ while(1):
 		a=[]
 		t=int(input("輸入："))
 		for i in range(t):
-			a.append(i+1)
+			a.append(i)
 		perm(a)
 	else:
 		break
